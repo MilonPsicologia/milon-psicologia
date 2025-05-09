@@ -20,13 +20,10 @@ export default function EquipoPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="relative h-[500px] rounded-lg overflow-hidden shadow-lg">
-              <Image
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
-                alt="Jon Ander Melchisidor"
-                fill
-                className="object-cover"
-              />
+            <div className="flex justify-center">
+              <div className="relative w-[250px] h-[250px] rounded-lg overflow-hidden shadow-lg">
+                <Image src="/images/jon-ander.png" alt="Jon Ander Melchisidor" fill className="object-contain" />
+              </div>
             </div>
             <div>
               <h2 className="text-3xl font-bold mb-4 font-playfair">Jon Ander Melchisidor</h2>

@@ -10,11 +10,11 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <Image
-                src="/images/logo-white.png"
+                src="/images/logo.png"
                 alt="Milón Psicología"
                 width={120}
                 height={120}
-                className="h-16 w-auto"
+                className="h-16 w-auto invert"
               />
             </div>
             <p className="text-gray-400 mt-2">
