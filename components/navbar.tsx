@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Mail, Phone, Menu, X } from "lucide-react"
+import { Mail, Phone, Menu, X, Instagram } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import {
@@ -55,6 +55,17 @@ export default function Navbar() {
             <div className="flex items-center">
               <Phone className="h-4 w-4 mr-1" />
               <span>688682660</span>
+            </div>
+            <div className="flex items-center">
+              <a
+                href="https://instagram.com/milonpsicologia"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center hover:text-gray-800 transition-colors"
+              >
+                <Instagram className="h-4 w-4 mr-1" />
+                <span className="hidden sm:inline">@milonpsicologia</span>
+              </a>
             </div>
           </div>
         </div>

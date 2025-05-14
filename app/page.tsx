@@ -13,11 +13,15 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6 font-playfair">
-                Potencia tu rendimiento deportivo con psicología especializada
+                Servicios de psicología deportiva especializada
               </h1>
               <p className="text-lg text-gray-700 mb-8">
-                En Milón Psicología ofrecemos servicios profesionales de psicología deportiva para ayudarte a alcanzar
-                tu máximo potencial, superar barreras mentales y optimizar tu rendimiento.
+                En Milón Psicología se ofrecen servicios profesionales de psicología del deporte para ayudarte a
+                optimizar tu rendimiento, mantener tu bienestar psicológico y desarrollarte como deportista. Asimismo,
+                se brinda acompañamiento en situaciones de alta exigencia, como lesiones, derrotas o transiciones
+                importantes, promoviendo el equilibrio entre la vida personal y la actividad deportiva. También se
+                colabora con entrenadores y cuerpos técnicos para mejorar la comunicación, la cohesión grupal y el clima
+                deportivo, contribuyendo a un entorno más saludable y eficaz para el alto rendimiento.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button asChild size="lg" className="bg-black hover:bg-gray-800 text-white">
@@ -44,15 +48,6 @@ export default function Home() {
       {/* About Section */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 font-playfair">Milón Psicología</h2>
-            <p className="text-lg text-gray-700">
-              Somos un servicio especializado en psicología deportiva dirigido por Jon Ander Melchisidor, psicólogo
-              deportivo con amplia experiencia en el trabajo con deportistas de diferentes disciplinas y clubes
-              profesionales como Athletic Club, Club Deportivo Getxo y Club Deportivo Alavés.
-            </p>
-          </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader className="pb-2">
@@ -61,7 +56,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Amplia experiencia trabajando con deportistas de élite y aficionados de diversas disciplinas.
+                  Amplia experiencia trabajando con deportistas de alto rendimiento de diferentes edades y disciplinas.
                 </p>
               </CardContent>
             </Card>

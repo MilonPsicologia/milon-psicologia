@@ -73,10 +73,10 @@ export default function FormacionesPage() {
                 </p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-4">Talleres prácticos</h3>
+                <h3 className="text-xl font-bold mb-4">Preparación de formaciones especializadas</h3>
                 <p className="text-gray-700">
-                  Sesiones de 3-4 horas con un enfoque práctico, donde se trabajan habilidades específicas a través de
-                  ejercicios y dinámicas participativas.
+                  Formaciones concretas en un ámbito específico que pueden ser utilizadas en planes de otros
+                  profesionales como entrenadores, preparadores o nutricionistas.
                 </p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg">
